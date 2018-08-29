@@ -4,7 +4,7 @@
       <thead>
         <tr>
           <th><div class="resizable">111</div></th>
-          <th><div>222</div></th>
+          <th><div class="resizable">222</div></th>
           <th><div>333</div></th>
         </tr>
       </thead>
@@ -101,6 +101,7 @@ table th div {
 
 table th div.resizable {
   resize: horizontal;
+  cursor: col-resize;
 }
 
 th div {
